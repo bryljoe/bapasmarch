@@ -1,0 +1,4 @@
+Instruction for execution
+1. first, execute 010 script1.sql in ESB INHOUSEVECO PROD
+
+

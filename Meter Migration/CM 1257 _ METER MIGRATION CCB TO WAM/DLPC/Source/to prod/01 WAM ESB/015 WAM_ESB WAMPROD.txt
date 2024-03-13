@@ -1,0 +1,5 @@
+Instruction for execution
+1. First, execute script 020 CR1257_MTR_LOG.SQL in WAM_ESB WAMPROD
+2. Second. execute script 030 grant_select.sql in WAM_ESB WAMPROD
+
+After executing, please proceed to the next folder 02 ESB INHOUSE

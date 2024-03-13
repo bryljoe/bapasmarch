@@ -1,0 +1,1 @@
+grant select on wam_esb.log_id_seq to ccb_dlpc;

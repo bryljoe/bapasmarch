@@ -1,0 +1,36 @@
+set define off;
+
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000029890' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000029948' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000029949' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000029954' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000029955' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030144' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030145' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030146' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030147' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030148' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030149' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030150' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030151' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030152' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030153' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030154' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030155' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030156' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030157' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030158' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030159' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030160' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030161' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030162' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030163' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030164' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030165' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030166' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030167' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030259' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030260' and asset_record_type = 'H';
+update synergen.sa_asset set asset_status = 'INACTIVE' where plant = '06' and asset_id = '100000000030263' and asset_record_type = 'H';
+
+commit;

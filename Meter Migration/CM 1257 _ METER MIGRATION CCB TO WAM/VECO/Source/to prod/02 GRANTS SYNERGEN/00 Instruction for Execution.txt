@@ -1,0 +1,2 @@
+Instruction for execution
+1. Execute 010 grants_for_veco.sql in SYNERGEN WAMPROD

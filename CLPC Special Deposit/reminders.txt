@@ -1,0 +1,5 @@
+to remind
+
+1. commented on posting amounts to ccb
+2. ask bpx message config 
+3. insert data into sd_refund_accts_sa

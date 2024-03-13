@@ -1,0 +1,1 @@
+grant select on wam_esb.temp_ticket211767 to synergen;

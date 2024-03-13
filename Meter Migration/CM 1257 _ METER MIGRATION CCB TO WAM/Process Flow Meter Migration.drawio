@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" modified="2024-01-22T07:44:21.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gPKstAqg5gVY8-VcxS-y" version="22.1.21" type="google">
+  <diagram name="Page-1" id="DUN7N6_ZBQFvEOWsblCs">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-1" target="6uxMhDcllpCo5bJj_xjq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-1" value="&lt;b&gt;Start&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-2" target="6uxMhDcllpCo5bJj_xjq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-2" value="&lt;b&gt;Get install/remove meters in CCB&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-4" target="6uxMhDcllpCo5bJj_xjq-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-4" target="6uxMhDcllpCo5bJj_xjq-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-4" value="&lt;b&gt;is meter &lt;br&gt;installed ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="20" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-11" target="6uxMhDcllpCo5bJj_xjq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-11" target="6uxMhDcllpCo5bJj_xjq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-11" value="&lt;b&gt;Has Meter Asset ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-13" value="&lt;b&gt;NO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="127" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-14" target="6uxMhDcllpCo5bJj_xjq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-14" value="&lt;b&gt;Set asset status to INACTIVE&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-17" value="&lt;b&gt;to follow&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-19" value="&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="300" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-20" target="6uxMhDcllpCo5bJj_xjq-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-20" value="&lt;b&gt;Set component status to IN STORES&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-24" value="&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-26" target="6uxMhDcllpCo5bJj_xjq-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-26" target="6uxMhDcllpCo5bJj_xjq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idTaMjBzyp52ReLedrgh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-26" target="idTaMjBzyp52ReLedrgh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-26" value="&lt;b&gt;is installed meters valid ?&amp;nbsp;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="20" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-33" value="&lt;b&gt;End&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-34" target="6uxMhDcllpCo5bJj_xjq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-34" target="6uxMhDcllpCo5bJj_xjq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="682.3999633789062" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="225" />
+              <mxPoint x="390" y="660" />
+              <mxPoint x="1387" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idTaMjBzyp52ReLedrgh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-34" target="idTaMjBzyp52ReLedrgh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-34" value="&lt;b&gt;is removed meters valid ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="175" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-40" value="&lt;b&gt;NO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="225" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-41" value="&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="891" y="127" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-42" value="&lt;b&gt;NO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="40" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-43" target="6uxMhDcllpCo5bJj_xjq-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-43" target="6uxMhDcllpCo5bJj_xjq-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-43" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Has Meter Asset ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="170" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-44" target="6uxMhDcllpCo5bJj_xjq-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-44" value="&lt;b&gt;Set asset status to ACTIVE&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-45" value="&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-47" value="&lt;b&gt;YES&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-48" target="6uxMhDcllpCo5bJj_xjq-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-48" value="&lt;b&gt;Create New Asset&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-50" value="&lt;b&gt;NO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="284" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uxMhDcllpCo5bJj_xjq-51" target="6uxMhDcllpCo5bJj_xjq-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-51" value="&lt;b&gt;Set component status to INSTALLED&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uxMhDcllpCo5bJj_xjq-57" value="&lt;b&gt;NO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idTaMjBzyp52ReLedrgh-2" value="&lt;b&gt;Removed Meters must be&amp;nbsp;&lt;/b&gt;&lt;br&gt;1. SA is Stopped&lt;br&gt;2. FA is Completed&lt;br&gt;3. FA Type Code in&amp;nbsp;Meter Removal and Discon due to Non-Payment Non Power and&amp;nbsp;Meter Removal&lt;br&gt;4. Residential SA&amp;nbsp;&lt;br&gt;5. Small Commercial SA&lt;br&gt;6. Not included customers with&amp;nbsp;Electric - Net Metering" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="126" width="280" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="idTaMjBzyp52ReLedrgh-4" value="&lt;b&gt;Installed Meters must be&amp;nbsp;&lt;/b&gt;&lt;br&gt;1. SA is Active&lt;br&gt;2. Residential SA&amp;nbsp;&lt;br&gt;3. Small Commercial SA&lt;br&gt;4. SP Type is Single-phase, Self-contained Metering and&amp;nbsp;Three-phase, Self-contained Metering&lt;br&gt;5. Not included customers with&amp;nbsp;Electric - Net Metering" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-190" width="280" height="145" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

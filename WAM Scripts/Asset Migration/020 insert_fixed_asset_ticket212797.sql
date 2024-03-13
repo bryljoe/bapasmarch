@@ -1,0 +1,5 @@
+insert into synergen.sa_asset_fixed_asset(plant,asset_id,asset_record_type,in_service_date,original_install_date,last_install_date,created_date,created_by) values ('01','100000000994656','G',to_date('','mm/dd/yyyy'),to_date('','mm/dd/yyyy'),to_date('','mm/dd/yyyy'),nvl(to_date('','mm/dd/yyyy'),sysdate), 'MIGRATED') ;
+insert into synergen.sa_asset_fixed_asset(plant,asset_id,asset_record_type,in_service_date,original_install_date,last_install_date,created_date,created_by) values ('01','100000000994657','G',to_date('','mm/dd/yyyy'),to_date('','mm/dd/yyyy'),to_date('','mm/dd/yyyy'),nvl(to_date('','mm/dd/yyyy'),sysdate), 'MIGRATED') ;
+insert into synergen.sa_asset_fixed_asset(plant,asset_id,asset_record_type,in_service_date,original_install_date,last_install_date,created_date,created_by) values ('01','100000000994658','G',to_date('','mm/dd/yyyy'),to_date('','mm/dd/yyyy'),to_date('','mm/dd/yyyy'),nvl(to_date('','mm/dd/yyyy'),sysdate), 'MIGRATED') ;
+
+commit;

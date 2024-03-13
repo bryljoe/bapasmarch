@@ -1,0 +1,3 @@
+Instruction for execution
+1. Execute 010 grant_select.sql in WAM_ESB WAMPROD
+

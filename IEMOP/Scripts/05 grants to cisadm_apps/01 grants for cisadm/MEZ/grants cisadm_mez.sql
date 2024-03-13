@@ -1,0 +1,11 @@
+grant select, insert, update on collection_batches to cisadm_apps;
+grant select, insert on paid_items to cisadm_apps;
+grant select, insert on payment_transactions to cisadm_apps;
+grant select, insert on paid_acct_facts to cisadm_apps;
+grant select, insert on forms_of_payment to cisadm_apps;
+grant select, insert on fop_cash to cisadm_apps;
+grant select, insert on payers to cisadm_apps;
+grant select, insert on crc_acct_no_mappings to cisadm_apps;
+grant execute on batch_numbers_mez to cisadm_apps;
+grant execute on tran_numbers_mez to cisadm_apps;
+grant execute on get_or_no_mez to cisadm_apps;

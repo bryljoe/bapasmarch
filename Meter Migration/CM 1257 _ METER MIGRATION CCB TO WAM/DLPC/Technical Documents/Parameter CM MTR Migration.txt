@@ -1,0 +1,25 @@
+FOR METER INSTALLATION ASSET
+Service Point
+sp_type_cd in ('E-1PH-SC','E-3PH-SC');
+
+SA TYPE
+sa_type_cd in ('E-RES   ', 'E-NRS-S ')
+
+Service Agreement Electric Status
+SA_STATUS_FLG = '20  '
+
+----------------------------- FOR METER ASSET REMOVAL
+
+Field activity Type
+fa_type in ('M-REMMTR','M-MTRDSC')
+
+Field Activity Status
+fa_status_flg = 'C '
+
+Service Agreement Electric Status
+SA_STATUS_FLG = '40  '
+
+-------------------------------
+
+Exclude customer accounts that are NET-METERING
+sa_type_cd = 'NET-E   '

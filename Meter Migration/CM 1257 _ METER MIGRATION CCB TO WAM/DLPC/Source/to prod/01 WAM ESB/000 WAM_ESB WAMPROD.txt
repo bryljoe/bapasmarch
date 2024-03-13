@@ -1,0 +1,4 @@
+Instruction for execution
+1. Execute 010 LOG_ID_SEQ.SQL in WAM_ESB WAMPROD
+
+After executing 010 please check 015 WAM ESB.txt

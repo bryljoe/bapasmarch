@@ -1,0 +1,41 @@
+--------------------------------------------------------
+--  DDL for Table PAID_ACCT_FACTS_TMP
+--------------------------------------------------------
+
+  CREATE TABLE "CISADM_APPS"."PAID_ACCT_FACTS_TMP" 
+   (	"TRAN_NO" NUMBER, 
+	"ACCT_NO" VARCHAR2(10 BYTE), 
+	"ACCT_STATUS" CHAR(1 BYTE), 
+	"SCHEDULE" VARCHAR2(20 BYTE), 
+	"AREA_CODE" VARCHAR2(4 BYTE), 
+	"GOVERNMENT_CODE" VARCHAR2(2 BYTE), 
+	"TIN" VARCHAR2(20 BYTE), 
+	"CFNP_REQUIRED_AMT" NUMBER(15,2), 
+	"LAST_DATE_PAID" DATE, 
+	"LAST_AMOUNT_PAID" NUMBER(15,2), 
+	"APPLY_FOR_RECON" NUMBER(1,0) DEFAULT 0
+   ) SEGMENT CREATION DEFERRED 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  TABLESPACE "CISTS_DATA01" ;
+--------------------------------------------------------
+--  DDL for Index PAID_ACCT_FACTS_TMP_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "CISADM_APPS"."PAID_ACCT_FACTS_TMP_PK" ON "CISADM_APPS"."PAID_ACCT_FACTS_TMP" ("TRAN_NO") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "CISTS_DATA01" ;
+--------------------------------------------------------
+--  Constraints for Table PAID_ACCT_FACTS_TMP
+--------------------------------------------------------
+
+  ALTER TABLE "CISADM_APPS"."PAID_ACCT_FACTS_TMP" MODIFY ("TRAN_NO" NOT NULL ENABLE);
+  ALTER TABLE "CISADM_APPS"."PAID_ACCT_FACTS_TMP" ADD CONSTRAINT "PAID_ACCT_FACTS_TMP_PK" PRIMARY KEY ("TRAN_NO")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  TABLESPACE "CISTS_DATA01"  ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table PAID_ACCT_FACTS_TMP
+--------------------------------------------------------
+
+  ALTER TABLE "CISADM_APPS"."PAID_ACCT_FACTS_TMP" ADD CONSTRAINT "PAID_ACCT_FACTS_TMP_FK" FOREIGN KEY ("TRAN_NO")
+	  REFERENCES "CISADM_APPS"."PAYMENT_TRANSACTIONS_TMP" ("TRAN_NO") ENABLE;

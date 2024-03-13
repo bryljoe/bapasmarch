@@ -1,0 +1,13 @@
+grant select, insert, update on cs.collection_batches to cisadm_dl;
+grant select, insert on cs.paid_items to cisadm_dl;
+grant select, insert on cs.payment_transactions to cisadm_dl;
+grant select, insert on cs.paid_acct_facts to cisadm_dl;
+grant select, insert on cs.forms_of_payment to cisadm_dl;
+grant select, insert on cs.fop_cash to cisadm_dl;
+grant select, insert on cs.payers to cisadm_dl;
+grant select, insert on cs.crc_acct_no_mappings to cisadm_dl;
+grant select on cs.batch_numbers to cisadm_dl;
+grant select on cs.payment_tran_numbers to cisadm_dl;
+grant select, insert, update on pop_sites_tin to cisadm_dl;
+grant select, insert, update on pop_sites_seq to cisadm_dl;
+grant select, insert, update on used_or_numbers to cisadm_dl;

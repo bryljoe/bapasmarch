@@ -1,0 +1,11 @@
+Scenario : nag add stock code
+Objective :nag add additional stock code CU
+
+Stock code = from fusion
+Integration wam to fusion
+
+Problem : wala pa ni ma set up sa storeroom
+
+Solution : create insert script in sa_storeroom
+
+if gamay ra, chat sir josh, if daghan through script
